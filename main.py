@@ -50,13 +50,14 @@ def Exit():
     quit()
 
 def create_gui():
+    subprocess.call(['python', 'splash.py'])
     root = tk.Tk()
-    root.title("CW-I PLUS")
-
+    root.title("OpenCW PLUS")
+    
     ## Adds textbox
     text_box = tk.Text(root, height=2, width=40)
     text_box.pack()
-    initial_text = "        Welcome to CW-I PLUS! \n        Choose an install type"
+    initial_text = "        Welcome to OpenCW PLUS! \n        Choose an install type"
     text_box.insert(tk.END, initial_text)
 
     ## Dark mode button

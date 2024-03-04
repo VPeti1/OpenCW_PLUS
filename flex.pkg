@@ -1,0 +1,5 @@
+## FLEXPKG Format Version 1 By VPeti
+
+pkg = python3
+git = https://github.com/VPeti1/OpenCW_PLUS.git
+osr = lin
